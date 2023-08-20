@@ -1,0 +1,36 @@
+.management{
+    height: auto;
+    padding: 90px 0;
+    background-color: #fff;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-text{
+            width: 485px;
+            height: auto;
+            .title{
+                color: #22343D;
+                font-size: 16px;
+                font-weight: 600;
+                margin-top: 5px;
+            }
+            .subtitle{
+                color: #22343D;
+                font-size: 32px;
+                font-weight: 700;
+            }
+            .descr{
+                color: #22343D;
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 25px;
+                span{
+                    display: block;
+                    font-weight: 600;
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+}

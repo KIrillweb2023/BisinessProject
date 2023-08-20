@@ -1,0 +1,46 @@
+.support{
+    height: auto;
+    padding: 50px 0;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-text{
+            width: 485px;
+            .text-item{
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 25px;
+                .text{
+                    width: 420px;
+                    color: #22343D;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+                img{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+            .title{
+                color: #22343D;
+                font-size: 16px;
+                font-weight: 600;
+            }
+            .subtitle{
+                color: #22343D;
+                font-size: 32px;
+                font-weight: 700;
+                margin-top: 5px;
+            }
+            .descr{
+                color: #22343D;
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 25px; 
+            }
+        }
+    }
+}

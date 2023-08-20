@@ -1,0 +1,98 @@
+.footer{
+    height: auto;
+    background-color: #fff;
+    padding: 90px 0 15px 0;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        .logo{
+            .messange{
+                display: flex;
+                width: 120px;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 30px;
+                img{
+                    width: 23px;
+                }
+            }
+        }
+        
+        
+        &-item{
+            display: flex;
+            flex-direction: column;
+            height: 180px;
+            justify-content: space-between;
+            .title{
+                color: #22343D;
+                font-size: 20px;
+                font-weight: 500;
+            }
+            .link{
+                color: #22343D;
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+        &-form{
+            height: 180px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .title{
+                color: #22343D;
+                font-size: 20px;
+                font-weight: 500;
+                width: 280px;
+            }
+            .input{
+                position: relative;
+                input{
+                    width: 280px;
+                    height: 45px;
+                    border-radius: 4px;
+                    border: 1px solid #BCD0E5;
+                    background: #FFF;
+                    color: #02897A;
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding-left: 40px;
+                    &::placeholder{
+                        color: #02897A;
+                    }
+                }
+                img{
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 10px;
+                }
+            }
+            .button{
+                width: 130px;
+                height: 35px;
+                border: none;
+                border-radius: 4px;
+                background: #02897A;
+                color: #FFF;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 700;
+                &:hover{
+                    border: 1px solid #BCD0E5;
+                    background-color: #fff;
+                    color: #22343D;
+                    transition: .3s;
+                }
+            }
+        }
+    }
+    &__subwrapper{
+        text-align: center;
+        color: #22343D;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 50px;
+    }
+}

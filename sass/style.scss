@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+@import './setting/setting';
+@import './block/header';
+@import './block/promo';
+@import './block/product';
+@import './block/management';
+@import './block/support';
+@import './block/collab';
+@import './block/process';
+@import './block/strateg';
+@import './block/client';
+@import './block/company';
+@import './block/footer';
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+

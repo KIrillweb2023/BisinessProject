@@ -1,0 +1,20 @@
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+input, textarea{
+    outline: none;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
